@@ -203,8 +203,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("AdityaServer")
-        await app.join_chat("AdityaDiscus")
+        await app.join_chat("DNS_NETWORK")
+        await app.join_chat("DNS_NETWORK")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -221,7 +221,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Sucessfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @AdityaServer !!")
+    LOGGER.info("✅ Now Do Visit: @DNS_NETWORK !!")
     await idle()
 
 
@@ -378,13 +378,13 @@ With Your ☛ Other Friends.**"""
             [
                 [
                     InlineKeyboardButton(
-                        text="🥀 Add Me In Your Chat ✨",
+                        text="❖ ᴧᴅᴅ мᴇ ʙᴧʙʏ ❖",
                         url=f"https://t.me/{bot.me.username}?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="🌺 Open Command List 🌷",
+                        text="• ᴄᴏᴍᴍᴧɴᴅ •",
                         callback_data="open_command_list",
                     )
                 ],
@@ -462,13 +462,13 @@ With Your ☛ Other Friends.**"""
         [
             [
                 InlineKeyboardButton(
-                    text="🥀 Add Me In Your Chat ✨",
+                    text="❖ ᴧᴅᴅ мᴇ ʙᴧʙʏ ❖",
                     url=f"https://t.me/{bot.me.username}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="🌺 Open Command List 🌷",
+                    text="• ᴄᴏᴍᴍᴧɴᴅ •",
                     callback_data="open_command_list",
                 )
             ],
@@ -1334,8 +1334,8 @@ With Your ☛ Other Friends.**"""
         [
             [
                 InlineKeyboardButton(
-                    text="🌺 Open Repository Link 🦋",
-                    url="https://github.com/AdityaHalder/AdityaPlayer",
+                    text="• sᴜᴘᴘᴏꝛᴛ •",
+                    url="https://t.me/DNS_NETWORK",
                 )
             ],
             [
@@ -1369,7 +1369,7 @@ async def update_repo_latest(client, message):
     await asyncio.sleep(7)
     verification = ""
     REPO_ = repo.remotes.origin.url.split(".git")[0]  # main git repository
-    for checks in repo.iter_commits(f"HEAD..origin/aditya"):
+    for checks in repo.iter_commits(f"HEAD..origin/DNS-V2"):
         verification = str(checks.count())
     if verification == "":
         return await response.edit("Bot is up-to-date!")
@@ -1395,7 +1395,7 @@ async def update_repo_latest(client, message):
         f"{nrs.text}\n\nBot was updated successfully! Now, wait for 1 - 2 mins until the bot reboots!"
     )
     os.system("pip3 install -r requirements.txt --force-reinstall")
-    os.system(f"kill -9 {os.getpid()} && python3 -m AdityaHalder")
+    os.system(f"kill -9 {os.getpid()} && python3 -m DNSXV2")
     sys.exit()
     return
 
@@ -1407,7 +1407,7 @@ async def check_bot_stats(client, message):
     except:
         pass
     photo = START_IMAGE_URL
-    caption = "**⏤͟͞ADITYA PLAYER STATS ༗**"
+    caption = "**⏤͟͞DNS PLAYER STATS ༗**"
     buttons = InlineKeyboardMarkup(
         [
             [
