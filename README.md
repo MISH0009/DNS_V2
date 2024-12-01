@@ -41,7 +41,7 @@ Dns-Player is an advanced & powerful multi-featured Telegram vc streaming bot.
 
 
 > [!IMPORTANT]
-> If you use Aditya-Player, it is important that you have proper knowledge about it. You should follow the [**`Documentation`**](https://t.me/Dns_Official_Channel) to learn about Dns-Music.
+> If you use Dns-Player, it is important that you have proper knowledge about it. You should follow the [**`Documentation`**](https://t.me/Dns_Official_Channel) to learn about Dns-Music.
 
 <h2>🤝 Contributing</h2>
 <p title="Contributing">As Dns-Music is an open-source project, all kinds of contributions are respectfully welcomed, and I also extend my sincere thanks to all contributors.</p>
