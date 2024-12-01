@@ -4,10 +4,10 @@
 
 <p align="center">
 <b>DNS_V2</b><br/>
-Aditya-Player is an advanced & powerful multi-featured Telegram vc streaming bot.
+Dns-Player is an advanced & powerful multi-featured Telegram vc streaming bot.
 </p>
 
-<h2>🤖 Aditya-Player Info</h2>
+<h2>🤖 Dns-Player Info</h2>
 <p title="DNS_V2">Dns-Music is an open-source Telegram multi-featured vc streaming bot developed by using the Python programming language and Pyrogram MTProto client library of the Telegram API and PyTgCalls library, a secure and reliable way to interact with the Telegram platform.</p>
 
 <h2>♨️ Host DNS_V2 On VPS Server</h2>
