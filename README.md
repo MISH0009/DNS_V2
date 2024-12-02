@@ -10,8 +10,30 @@ Dns-Player is an advanced & powerful multi-featured Telegram vc streaming bot.
 <h2>🤖 Dns-Player Info</h2>
 <p title="DNS_V2">Dns-Music is an open-source Telegram multi-featured vc streaming bot developed by using the Python programming language and Pyrogram MTProto client library of the Telegram API and PyTgCalls library, a secure and reliable way to interact with the Telegram platform.</p>
 
-<h2>♨️ Host DNS_V2 On VPS Server</h2>
 
+
+<p align="center">
+<b>Dvis Music</b><br/>
+Dvis Music is an advanced & powerful multi-featured Telegram vc streaming bot.
+</p>
+
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+</h3>
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/IamDvis/DV-MUSIC-V2"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
+</h3>
+
+<h3 align="center">
+    
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=dv-music-v2&type=git&repository=IamDvis%2FDV-MUSIC-V2&branch=main&builder=dockerfile&env%5BAPI_ID%5D=&env%5BAPI_HASH%5D=&env%5BBOT_TOKEN%5D=&env%5BMONGO_DB_URI%5D=&env%5BLOG_CHANNEL%5D=&env%5BOWNER_ID%5D=&env%5BSTART_IMAGE_URL%5D=&env%5BSTRING_SESSION%5D=&ports=8080%3Bhttp%3B%2F)
+
+</h3>
+
+<h2>♨️ Host DNS_V2 On VPS Server</h2>
 
 **1. At First Copy & Paste Below Command.**
 
@@ -47,7 +69,7 @@ Dns-Player is an advanced & powerful multi-featured Telegram vc streaming bot.
 <p title="Contributing">As Dns-Music is an open-source project, all kinds of contributions are respectfully welcomed, and I also extend my sincere thanks to all contributors.</p>
 
 <h2>🌐 Updates & Support</h2>
-<p title="Support">You can join Dns-Music's official Telegram channel and group on Telegram for any updates and support-related issues of Aditya-Player.</p>
+<p title="Support">You can join Dns-Music's official Telegram channel and group on Telegram for any updates and support-related issues of Dns-Player.</p>
 
 - Telegram Updates: [**`@𝗗𝗻𝘀𝗨𝗽𝗱𝗮𝘁𝗲`**](https://t.me/Dns_Official_Channel)
 
