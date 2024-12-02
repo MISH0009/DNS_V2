@@ -378,13 +378,13 @@ With Your ☛ Other Friends.**"""
             [
                 [
                     InlineKeyboardButton(
-                        text="❖ ᴧᴅᴅ мᴇ ʙᴧʙʏ ❖",
+                        text="🥀 Add Me In Your Chat ✨",
                         url=f"https://t.me/{bot.me.username}?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="• ᴄᴏᴍᴍᴧɴᴅ •",
+                        text="🌺 Open Command List 🌷",
                         callback_data="open_command_list",
                     )
                 ],
@@ -462,13 +462,13 @@ With Your ☛ Other Friends.**"""
         [
             [
                 InlineKeyboardButton(
-                    text="❖ ᴧᴅᴅ мᴇ ʙᴧʙʏ ❖",
+                    text="🥀 Add Me In Your Chat ✨",
                     url=f"https://t.me/{bot.me.username}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="• ᴄᴏᴍᴍᴧɴᴅ •",
+                    text="🌺 Open Command List 🌷",
                     callback_data="open_command_list",
                 )
             ],
@@ -1334,8 +1334,8 @@ With Your ☛ Other Friends.**"""
         [
             [
                 InlineKeyboardButton(
-                    text="• sᴜᴘᴘᴏꝛᴛ •",
-                    url="https://t.me/DNS_NETWORK",
+                    text="🌺 Open Repository Link 🦋",
+                    url="https://github.com",
                 )
             ],
             [
@@ -1364,12 +1364,12 @@ async def update_repo_latest(client, message):
         return await response.edit("Git Command Error")
     except InvalidGitRepositoryError:
         return await response.edit("Invalid Git Repsitory")
-    to_exc = f"git fetch origin aditya &> /dev/null"
+    to_exc = f"git fetch origin dns &> /dev/null"
     os.system(to_exc)
     await asyncio.sleep(7)
     verification = ""
     REPO_ = repo.remotes.origin.url.split(".git")[0]  # main git repository
-    for checks in repo.iter_commits(f"HEAD..origin/DNS-V2"):
+    for checks in repo.iter_commits(f"HEAD..origin/dns"):
         verification = str(checks.count())
     if verification == "":
         return await response.edit("Bot is up-to-date!")
@@ -1395,7 +1395,7 @@ async def update_repo_latest(client, message):
         f"{nrs.text}\n\nBot was updated successfully! Now, wait for 1 - 2 mins until the bot reboots!"
     )
     os.system("pip3 install -r requirements.txt --force-reinstall")
-    os.system(f"kill -9 {os.getpid()} && python3 -m DNSXV2")
+    os.system(f"kill -9 {os.getpid()} && python3 -m DnsXMusic")
     sys.exit()
     return
 
@@ -1407,7 +1407,7 @@ async def check_bot_stats(client, message):
     except:
         pass
     photo = START_IMAGE_URL
-    caption = "**⏤͟͞DNS PLAYER STATS ༗**"
+    caption = "**DNS MUSIC STATS ༗**"
     buttons = InlineKeyboardMarkup(
         [
             [
